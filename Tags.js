@@ -9,7 +9,7 @@ export const options =
     }
 }
 
-export default function()
+export default function()cls
 {
     http.get('https://run.mocky.io/v3/f5ae742d-bd2c-4548-a811-1ffa974bab35');   //generate 200 and 201 on mocky.io
     http.get('https://run.mocky.io/v3/e87c4f63-027f-4aaa-a635-0a744318d776?mocky-delay=1500ms'); //simulated delay to fail req duration check
