@@ -8,7 +8,8 @@ export default function()
         'true is true': (value) => value === true
     });*/
     check(res, {
-        'Response is 200': (r)=> r.status === 200
-    })
-
+        'Response is 200': (r)=> r.status === 200,
+        'Page is start page' : (r) => r.body.includes('Collection of simple web-pages suitable for load testing.') === true
+               });
+    
 }
